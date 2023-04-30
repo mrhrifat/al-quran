@@ -1,0 +1,23 @@
+// Diamond
+.diamond {
+  // background-color: #f4f5f6;
+  width: calc(2.5 * 1rem);
+  height: calc(2.5 * 1rem);
+  border-radius: 0.25rem;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h6 {
+    transform: rotate(315deg);
+  }
+}
+
+// Salah
+.salah {
+  background: url("../../images/salah.png") no-repeat top center;
+  background-size: auto 50%;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 100vh;
+}
